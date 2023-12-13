@@ -1,0 +1,8 @@
+{
+  "extends": "../.nuxt/tsconfig.server.json",
+  "include": [
+    "../.nuxt/types/nitro.d.ts",
+    "../.nuxt/types/auth.d.ts",
+    "../server/**/*"
+  ]
+}
